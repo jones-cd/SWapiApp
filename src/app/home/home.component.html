@@ -1,0 +1,11 @@
+<ul *ngIf="films">
+  <ng-container *ngFor="let film of films">
+      <li >
+        <p><span>Episode {{ film.episode_id }}</span></p>
+        <h1> {{ film.title }} </h1>
+        <p> {{ film.opening_crawl }} </p>
+        <div id="button"><a [routerLink]="['/details',film?.episode_id]">Click for more</a></div>
+      </li>
+  </ng-container>
+
+</ul>

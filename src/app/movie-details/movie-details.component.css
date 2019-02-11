@@ -1,0 +1,16 @@
+span {
+  font-weight: bold;
+}
+
+li {
+  background: white;
+  color: black;
+  padding: 2em;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
